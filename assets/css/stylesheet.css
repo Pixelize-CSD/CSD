@@ -1,0 +1,44 @@
+body {
+    background-image: url("assets/imgs/background.png");
+  }
+
+
+.main-heading{
+    color: black;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+.main-sub-heading{
+    color: black;
+    font-family: "Roboto";
+}
+.main-desc{
+    color: black;
+    font-size: 16px;
+    
+}
+.event-logo{
+    height: 80px;
+    width: 80px;
+    
+}
+.event-desc{
+    font-size: 14px;
+}
+.award-heading{
+    font-family: "Roboto";
+    text-align: center; 
+}
+.event-card-event-head{
+    color: black;
+    font-size: 16px;
+    text-align: center;
+}
+.event-card-event-head :hover {
+    color: blue;
+    text-decoration: underline;
+}
+.sponser-logo{
+    height: 140px;
+    width: 170px;
+}

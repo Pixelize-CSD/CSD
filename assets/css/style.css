@@ -1,0 +1,19 @@
+.bg-img{
+    height: 100vh;
+    width: 100vw;
+    object-fit:cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: brightness(0.7);
+}
+.event-logo{
+    height: 100px;
+    width: 100px;
+    
+}
+.sponser-logo{
+    height: 140px;
+    width: 170px;
+}
