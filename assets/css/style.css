@@ -6,7 +6,7 @@
     top: 0;
     left: 0;
     z-index: -1;
-    filter: brightness(0.7);
+    filter: brightness(0.5);
 }
 .event-logo{
     height: 100px;
@@ -15,7 +15,7 @@
 }
 .sponser-logo{
     height: 140px;
-    width: 170px;
+    width: auto;
 }
 .bg-dark-transluscent{
     background-color: #000000ac;
