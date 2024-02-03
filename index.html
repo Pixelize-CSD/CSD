@@ -15,14 +15,14 @@
 </head>
 
 <body>
-    <img class="bg-img position-fixed" src="assets/imgs/background.png" alt="bg-image">
+    <img class="bg-img position-fixed" src="assets/imgs/background.jpg" alt="bg-image">
     <!-- nav bar -->
     <section>
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark-transluscent">
             <div class="container-fluid justify-content-center">
                 <a class="navbar-brand" href="#">
-                    <!-- <img src="/docs/5.2/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="30" height="24"> -->
-                    Pixelize</a>
+                    <img src="assets/imgs/pixelize-logo.png" alt="Bootstrap" width="72" height="24">
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -33,7 +33,7 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Pixel&lt;Web&gt;</a>
+                            <a class="nav-link" aria-current="page" href="#">Pixel&lt;/Web&gt;</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -93,14 +93,18 @@
     </section>
 
     <!-- Heading -->
-    <section class=" bg-dark">
+    <section class=" bg-dark-transluscent">
         <div class="container py-3 mt-3 text-light">
             <div class="col-12 col-md-12 col-lg-12 text-center">
-                <h1 class="main-heading">Pixelize</h1>
-                <h2 class="main-sub-heading mt-3">Compact Is the New Impact</h2>
-                <p class="main-desc mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum est
-                    maxime aliquam iste optio, natus maiores illum veniam voluptatibus minus! Dolorum velit aut illo
-                    accusamus esse iusto dolores fugit voluptatibus?
+                <img src="assets/imgs/pixelize-logo.png" alt="Bootstrap" width="720" height="240" class="img-fluid">
+                <h2 class="main-sub-heading mt-3">Design is intelligence made visible.</h2>
+                <p class="main-desc mt-3">"Get ready for Pixelize, our college's symposium designed exclusively for
+                    engineering students! Dive into a day of technical and non-technical events, where your skills will
+                    be put to the test. To secure your spot, a registration fee of ₹250 is applicable, covering not only
+                    your entry but also ensuring you're fueled throughout the day with delicious food and refreshing
+                    beverages. Participants will receive certificates, and winners stand a chance to take home exciting
+                    prizes. Join us for a day of knowledge, fun, and recognition at Pixelize - where brilliance meets
+                    reward!"
                 </p>
             </div>
         </div>
@@ -117,12 +121,12 @@
                     <div class="card mb-3 text-bg-dark" style="max-width: 540px;">
                         <div class="row g-0">
                             <div class="col-md-4">
-                                <img src="assets/imgs/web-design-logo.png" class="img-fluid rounded-start"
+                                <img src="assets/imgs/Technical/web-design-logo.png" class="img-fluid rounded-start"
                                     alt="webdesignlogo">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Pixel&lt;/Web&gt;</h5>
                                     <p class="card-text">This is a wider card with supporting text below as a natural
                                         lead-in to additional content. This content is a little bit longer.</p>
                                     <a href="#" class="btn btn-secondary">Go somewhere</a>
@@ -193,7 +197,7 @@
     <!-- tech-events -->
     <section>
         <div>
-            <h1 class=" display-3 text-light text-center mb-4">Technical Events</h1>
+            <h1 class=" display-3 text-light text-center mb-4">Non-Technical Events</h1>
         </div>
         <div class="container py-3 mt-3 text-light">
             <div class="row">
@@ -276,7 +280,7 @@
             </div>
     </section>
     <!-- rewards -->
-    <section class="bg-dark">
+    <section class="bg-dark-transluscent">
         <div class="container mt-5 text-center">
             <p class="h1 text-light py-3">Awards</p>
             <div class="bg-gradient bg-success p-3 my-3">
@@ -312,7 +316,7 @@
 
 
     <!-- footer -->
-    <footer class="text-center text-lg-start bg-dark">
+    <footer class="text-center text-lg-start bg-dark-transluscent">
         <div class="container d-flex justify-content-center py-5">
             <button type="button" class="btn btn-primary btn-lg btn-floating mx-2 btn-secondary">
                 <i class="fab fa-facebook-f"></i>
@@ -320,9 +324,11 @@
             <button type="button" class="btn btn-primary btn-lg btn-floating mx-2 btn-secondary">
                 <i class="fab fa-youtube"></i>
             </button>
-            <button type="button" class="btn btn-primary btn-lg btn-floating mx-2 btn-secondary">
+            <a class="btn btn-primary btn-lg btn-floating mx-2 btn-secondary"
+                href="https://www.instagram.com/pixelize_24/">
                 <i class="fab fa-instagram"></i>
-            </button>
+            </a>
+            <a href=""></a>
             <button type="button" class="btn btn-primary btn-lg btn-floating mx-2 btn-secondary">
                 <i class="fab fa-twitter"></i>
             </button>
@@ -335,7 +341,6 @@
         <!-- Copyright -->
     </footer>
 
-</body>
 
 
 
@@ -349,14 +354,9 @@
 
 
 
-
-
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
