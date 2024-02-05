@@ -1,3 +1,9 @@
+p{
+    text-align: center;
+}
+p.text-left{
+    text-align: left;
+}
 .bg-img{
     height: 100vh;
     width: 100vw;
@@ -14,8 +20,8 @@
     
 }
 .sponser-logo{
-    height: 140px;
-    width: auto;
+    height: auto;
+    width: 120px;
 }
 .bg-dark-transluscent{
     background-color: #000000ac;
@@ -23,4 +29,9 @@
 .event-img{
     height: auto;
     width: 40vw;
+}
+
+.qr{
+    height: 140px;
+    width: auto;
 }
